@@ -1,0 +1,20 @@
+{% extends 'base.html' %}
+
+{% block content %}
+  <div class="row row-cols-1 row-cols-md-2 row-cols-lg-3 g-4">
+    {% for product in products %}
+      <div class="col">
+        <div class="card h-100">
+          <a href="{% url 'product_detail' product_id=product.id %}">
+            <img src="{{ product.image.url }}" class="card-img-top img-fluid" alt="{{ product.name }}">
+          </a>
+          <div class="card-body">
+            <h5 class="card-title">{{ product.name }}</h5>
+            <p class="card-text">Fiyat: {{ product.price }} TL </p>
+            <h5 class="card-title">Detay için karta tıklayın</h5>
+          </div>
+        </div>
+      </div>
+    {% endfor %}
+  </div>
+{% endblock %}
