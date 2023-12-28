@@ -1,4 +1,9 @@
 # webProgrammingHW2
+!!!! I tried every solution on youtube and every solutions on internet but ı still had error while ı tried to deploy to python anywhere,because of that ı dont have deployment
+And since github pages are only for static pages we cant deploy django app to the github pages.
+
+
+Data model and assumptions:
 
 name: CharField with a maximum length of 255 characters.
 description: TextField for a longer description of the product.
@@ -20,5 +25,4 @@ Categorization:
 
 Products are categorized, and the category is stored as a string.
 
-!!!! I tried every solution on youtube and every solutions on internet but ı still had error while ı tried to deploy to python anywhere,because of that ı dont have deployment
-And since github pages are only for static pages we cant deploy django app to the github pages.
+
