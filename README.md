@@ -1,5 +1,8 @@
 # webProgrammingHW2
-!!!! I tried every solution on youtube and every solutions on internet but ı still had error while ı tried to deploy to python anywhere,because of that ı dont have deployment
+
+1 minute video of my project : https://www.youtube.com/watch?v=YT-XM_JXmKk
+
+I tried every solution on youtube and every solutions on internet but ı still had error while ı tried to deploy to python anywhere,because of that ı dont have deployment
 And since github pages are only for static pages we cant deploy django app to the github pages.
 
 
